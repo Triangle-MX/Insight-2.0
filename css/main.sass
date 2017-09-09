@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Nunito:400,900')
+
+// Variables
+$yellow: #1E81FF
+$black: #0C0D19
+$white: #FFFFFF
+$grey: #EEEEEE
+$red: #FF5959
+$blue: #1E81FF
+
+$anton: "Nunito", "Helvetica Neue", sans-serif
+$montserrat: "Nunito", "Helvetica Neue", sans-serif
+$lato: "Nunito", "Helvetica Neue", sans-serif
+
+$normal-size: 18px
+$mobile-size: 16px
+$big-size: 20px
+
+$transition: .2s ease-in
+$box-shadow: 5px 5px 100px 0px rgba(27,27,27,0.1)
+$box-shadow2: 7px 7px 100px 0px rgba(27,27,27,0.1)
+
+$border-radius: 5px
+
+/* Componentes Basicos */
+body
+    background-color: $white
+    overflow-x: hidden
+    font-family: $lato
+    font-size: $normal-size
+    color: $black
+    font-weight: 500
+
+@media (max-width: 600px)
+    body
+        font-size: $mobile-size
+
+
+@media (max-width: 1500px)
+    body
+        font-size: $big-size
+
+h1,h2,h3,h4,h5,h6
+    font-family: $montserrat
+
+a
+    text-decoration: none
+    color: $yellow
+    transition: $transition
+
+    &:hover, &:active, &:visited
+        color: $black
+        text-decoration: none
+
+/* Link Effect +/
+.link
+    display: inline-block
+    color: $black
+    text-decoration: none
+
+.link::after
+    content: ''
+    display: block
+    width: 0
+    height: 2px
+    background: $yellow
+    transition: width .3s
+
+.link:hover::after
+    width: 100%
+
+/* Selection */
+::-moz-selection
+    text-shadow: none
+    background: $blue
+    color: $white
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+::selection
+    text-shadow: none
+    background: $blue
+    color: $white
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+img::-moz-selection
+    background: transparent
+
+img::selection
+    background: transparent
+
+img::-moz-selection
+    background: transparent
+
+// Partials
+
+/* index.html */
+@import 'index.sass'
+/* Taxi Easter Egg */
+@import 'taxi.sass'
+
+/* Menu */
+@import 'menu.sass'
+/* Footer */
+@import 'footer.sass'
+/* Buttons */
+@import 'buttons.sass'
+/* Form */
+@import 'form.sass'
+
+
+/* Sub-Pages */
+@import 'sub-pages.sass'
+/* About */
+@import 'about.sass'
+/* Proyectos */
+@import 'proyectos.sass'
+
+/* 404.html + Under Construction */
+@import 'error.sass'
