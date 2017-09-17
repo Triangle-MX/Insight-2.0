@@ -155,8 +155,7 @@ img::-moz-selection {
     .paso-container .title span {
       font-weight: bold; }
   .paso-container .lead {
-    margin-top: 0px;
-    margin-bottom: 51px; }
+    margin-top: 0px; }
 
 #obtencion, #analisis, #triangle, #estrategia, #faq, #contacto, #doodle {
   padding: 80px 144px; }
