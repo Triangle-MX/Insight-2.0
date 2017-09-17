@@ -4,7 +4,7 @@ ErrorDocument 501 https://triangle.mx/files/501.html
 
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.triangle.mx [NC]
-RewriteRule ^(.*)$ https://triangle.mx/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^insight.triangle.mx [NC]
+RewriteRule ^(.*)$ https://www.insight.triangle.mx/$1 [L,R=301]
 
 DefaultLanguage es
