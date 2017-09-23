@@ -169,7 +169,8 @@ img::-moz-selection {
     .paso-container .title span {
       font-weight: bold; }
   .paso-container .lead {
-    margin-top: 0px; }
+    margin-top: 0px;
+    margin-bottom: 51px; }
 
 #obtencion, #analisis, #triangle, #estrategia, #faq, #contacto, #doodle {
   padding: 80px 144px; }
@@ -513,7 +514,7 @@ img::-moz-selection {
   background-color: #FFB61E;
   color: #FFFFFF;
   cursor: pointer;
-  border-radius: 250px;
+  border-radius: 5px;
   font-size: 110%;
   -webkit-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -525,17 +526,17 @@ img::-moz-selection {
       background-color: #FFB61E;
       color: #FFFFFF;
       cursor: pointer;
-      border-radius: 250px;
+      border-radius: 5px;
       font-size: 105%;
       -webkit-transition: 0.2s ease-in;
       -o-transition: 0.2s ease-in;
       transition: 0.2s ease-in;
       border: 3px solid #FFB61E; } }
   .btn2:hover, .btn2:focus, .btn2:visited:hover, .btn2:visited:focus, .btn2:active:hover, .btn2:active:focus {
-    background-color: #0C0D19;
+    background-color: #1b1b1b;
     color: #FFFFFF;
     text-decoration: none !important;
-    border: 3px solid #0C0D19; }
+    border: 3px solid #1b1b1b; }
 
 /* .btn-3 */
 .btn3, .btn3:visited, .btn3:active {
