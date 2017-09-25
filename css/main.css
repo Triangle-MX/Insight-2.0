@@ -169,7 +169,8 @@ img::-moz-selection {
     .paso-container .title span {
       font-weight: bold; }
   .paso-container .lead {
-    margin-top: 0px;
+    margin-top: 0px; }
+  .paso-container .lead-imp {
     margin-bottom: 51px; }
 
 #obtencion, #analisis, #triangle, #estrategia, #faq, #contacto, #doodle {
@@ -192,6 +193,26 @@ img::-moz-selection {
 
 #analisis {
   background-color: #0C0D19; }
+
+#doodle {
+  background-color: #f3476d;
+  /* Selection */ }
+  #doodle .icon {
+    height: 100px; }
+  #doodle ::-moz-selection {
+    text-shadow: none;
+    background: #f3476d;
+    color: #FFFFFF;
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1); }
+  #doodle ::selection {
+    text-shadow: none;
+    background: #f3476d; }
+  #doodle img::-moz-selection {
+    background: transparent; }
+  #doodle img::selection {
+    background: transparent; }
+  #doodle img::-moz-selection {
+    background: transparent; }
 
 #triangle {
   background-color: #FFB61E;
@@ -541,7 +562,7 @@ img::-moz-selection {
 /* .btn-3 */
 .btn3, .btn3:visited, .btn3:active {
   padding: 10px 42px;
-  background-color: #0C0D19;
+  background-color: #f3476d;
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 5px;
@@ -549,11 +570,11 @@ img::-moz-selection {
   -webkit-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
-  border: 3px solid #0C0D19; }
+  border: 3px solid #f3476d; }
   @media (max-width: 600px) {
     .btn3, .btn3:visited, .btn3:active {
       padding: 5px 21px;
-      background-color: #0C0D19;
+      background-color: #f3476d;
       color: #FFFFFF;
       cursor: pointer;
       border-radius: 5px;
@@ -561,12 +582,12 @@ img::-moz-selection {
       -webkit-transition: 0.2s ease-in;
       -o-transition: 0.2s ease-in;
       transition: 0.2s ease-in;
-      border: 3px solid #0C0D19; } }
+      border: 3px solid #f3476d; } }
   .btn3:hover, .btn3:focus, .btn3:visited:hover, .btn3:visited:focus, .btn3:active:hover, .btn3:active:focus {
-    background-color: #1E81FF;
+    background-color: #0C0D19;
     color: #FFFFFF;
     text-decoration: none !important;
-    border: 3px solid #1E81FF; }
+    border: 3px solid #0C0D19; }
 
 /* Form */
 #form input, #form textarea {

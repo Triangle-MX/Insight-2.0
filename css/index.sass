@@ -98,6 +98,8 @@
 
     .lead
         margin-top: 0px
+
+    .lead-imp
         margin-bottom: 51px
 
 #obtencion, #analisis, #triangle, #estrategia, #faq, #contacto, #doodle
@@ -118,6 +120,32 @@
 
 #analisis
     background-color: $black
+
+#doodle
+    background-color: $doodle
+
+    .icon
+        height: 100px
+
+    /* Selection */
+    ::-moz-selection
+        text-shadow: none
+        background: $doodle
+        color: $white
+        text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+    ::selection
+        text-shadow: none
+        background: $doodle
+
+    img::-moz-selection
+        background: transparent
+
+    img::selection
+        background: transparent
+
+    img::-moz-selection
+        background: transparent
 
 #triangle
     background-color: #FFB61E
