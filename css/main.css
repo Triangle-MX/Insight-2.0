@@ -221,12 +221,12 @@ img::-moz-selection {
     height: 100px; }
   #triangle ::-moz-selection {
     text-shadow: none;
-    background: #1E81FF;
+    background: #FFB61E;
     color: #FFFFFF;
     text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1); }
   #triangle ::selection {
     text-shadow: none;
-    background: #1E81FF; }
+    background: #FFB61E; }
   #triangle img::-moz-selection {
     background: transparent; }
   #triangle img::selection {
